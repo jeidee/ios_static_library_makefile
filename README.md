@@ -23,3 +23,11 @@ $ make clean
 
 ## 추가할 내용
 * 의존성 있는 라이브러리를 링크하는 과정 추가
+
+## 참고 자료
+
+* https://gist.github.com/j0sh/895945
+* http://10apps.tistory.com/123
+* http://stackoverflow.com/questions/27016612/compiling-external-c-library-for-use-with-ios-project
+* https://gist.github.com/c0ming/10976661
+* http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4

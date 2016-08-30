@@ -25,7 +25,7 @@ CFLAGS := -arch $(ARCH) -isysroot $(SDKROOT) -miphoneos-version-min=7.0 -fembed-
 $(TARGET): $(OBJECTS)
 	@mkdir -p $(TARGETDIR)
 	@echo "Build shared library..."
-	ar rcs $@ $<
+	ar rcs $@ $^
 	ranlib $@
 	#$(CC) $(CFLAGS) $^ -o $(TARGET) $(LIB)
 
